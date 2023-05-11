@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="home.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <div class="header-content">
+                <img src="images/logo.svg" alt="">
+            </div>
+            <div class="main-content">
+                <div class="left-container">
+                    <div class="left-content">
+                        <textarea name="encriptText" id="encriptText" 
+                        placeholder="Digite seu texto"></textarea>
+                        <div class="button-area">
+                            <img src="images/frame1.svg" alt="">
+                            <div>
+                                <button class="button encriptButton">Criptografar</button>
+                                <button class="button decriptButton">Descriptografar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-container">
+                    <div class="right-content">
+                        <div class="result-area">
+                            <p class="transformedText d-none"></p>
+                            <div class="result-image">
+                                <img src="images/messageImage.svg" alt="">
+                                <img src="images/message.svg" alt="">
+                            </div>
+                        </div>
+                        <button class="button copyButton d-none">Copiar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
